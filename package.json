@@ -7,10 +7,6 @@
   "scripts": {
     "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/writetome51/get-countup-countdown.git"
-  },
   "keywords": [
     "math",
     "numbers",
@@ -18,9 +14,5 @@
   ],
   "author": "Steve Thompson",
   "license": "FREE",
-  "bugs": {
-    "url": "https://github.com/writetome51/get-countup-countdown/issues"
-  },
-  "homepage": "https://github.com/writetome51/get-countup-countdown#readme",
   "dependencies": {}
 }
