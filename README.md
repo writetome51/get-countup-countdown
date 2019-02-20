@@ -1,8 +1,8 @@
-Returns array of integers in ascending order, i.e., [1,2,3,4,5...] :
 
-getCountup(startingNumber, endingNumber)
+## getCountup(startingNumber, endingNumber, increment?): number[]  
+Returns array of numbers in ascending order, i.e., [1,2,3,4,5...].  
+<b>increment</b> is 1 by default.
 
-
-Returns array of integers in descending order, i.e., [5,4,3,2,1...] :
-
-getCountdown(startingNumber, endingNumber)
+## getCountdown(startingNumber, endingNumber, increment?): number[]  
+Returns array of numbers in descending order, i.e., [5,4,3,2,1...].  
+<b>increment</b> is 1 by default.
