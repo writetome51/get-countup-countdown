@@ -1,7 +1,7 @@
 {
   "name": "@writetome51/get-countup-countdown",
-  "version": "1.0.2",
-  "description": "For common manipulation of numbers.",
+  "version": "1.0.3",
+  "description": "2 functions that return array of numbers in ascending order, and array of numbers in descending order, respectively.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
