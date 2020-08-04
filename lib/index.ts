@@ -5,11 +5,11 @@ export function getCountup(startingNumber, endingNumber, increment = 1): number[
 		throw new Error('In the arguments, the first number must be less' +
 			' than or equal to the second number');
 	}
-	let integers = [];
+	let nums = [];
 	for (let i = startingNumber; i <= endingNumber; i += increment) {
-		integers.push(i);
+		nums.push(i);
 	}
-	return integers;
+	return nums;
 }
 
 
@@ -20,9 +20,9 @@ export function getCountdown(startingNumber, endingNumber, increment = 1): numbe
 		throw new Error('In the arguments, the first number must be greater' +
 			' than or equal to the second number');
 	}
-	let integers = [];
+	let nums = [];
 	for (let i = startingNumber; i >= endingNumber; i -= increment) {
-		integers.push(i);
+		nums.push(i);
 	}
-	return integers;
+	return nums;
 }

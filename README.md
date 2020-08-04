@@ -1,7 +1,7 @@
-## getCountup(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;increment? = 1<br>): number[]  
+# getCountup(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;increment? = 1<br>): number[]  
 Returns array of numbers in ascending order, i.e., [1,2,3,4,5...]. 
 
-## getCountdown(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;increment? = 1<br>): number[]  
+# getCountdown(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endingNumber,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;increment? = 1<br>): number[]  
 Returns array of numbers in descending order, i.e., [5,4,3,2,1...].
 
 
