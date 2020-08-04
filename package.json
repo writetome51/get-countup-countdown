@@ -10,10 +10,15 @@
   },
   "keywords": [
     "math",
+    "functions",
     "numbers",
-    "functions"
+    "array",
+    "count"
   ],
   "author": "Steve Thompson",
   "license": "FREE",
+  "devDependencies": {
+    "@writetome51/arrays-match": "^2.0.0"
+  },
   "dependencies": {}
 }
