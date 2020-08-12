@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-countup-countdown",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "2 functions that return array of numbers in ascending order, and array of numbers in descending order, respectively.",
   "type": "module",
   "main": "dist/index.js",
