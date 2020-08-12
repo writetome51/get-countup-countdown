@@ -1,28 +1,19 @@
+import { getCount } from './__privy.js';
+
+
 // Returns array of numbers in ascending order, i.e., [1,2,3,4,5...]
-
 export function getCountup(startingNumber, endingNumber, increment = 1) {
-    if (startingNumber > endingNumber) {
-        throw new Error('In the arguments, the first number must be less' +
-            ' than or equal to the second number');
-    }
-    let nums = [];
-    for (let i = startingNumber; i <= endingNumber; i += increment) {
-        nums.push(i);
-    }
-    return nums;
+    if (startingNumber > endingNumber)
+        throw new Error('The startingNumber must be less than or equal to the endingNumber');
+    if (increment < 0)
+        increment = -(increment);
+    return getCount(startingNumber, endingNumber, increment);
 }
-
-
 // Returns array of numbers in descending order, i.e., [5,4,3,2,1...]
-
 export function getCountdown(startingNumber, endingNumber, increment = 1) {
-    if (startingNumber < endingNumber) {
-        throw new Error('In the arguments, the first number must be greater' +
-            ' than or equal to the second number');
-    }
-    let nums = [];
-    for (let i = startingNumber; i >= endingNumber; i -= increment) {
-        nums.push(i);
-    }
-    return nums;
+    if (startingNumber < endingNumber)
+        throw new Error('The startingNumber must be greater than or equal to the endingNumber');
+    if (increment > 0)
+        increment = -(increment);
+    return getCount(startingNumber, endingNumber, increment);
 }

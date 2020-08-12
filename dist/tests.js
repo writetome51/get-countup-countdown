@@ -54,3 +54,32 @@ else console.log('test 8 FAILED');
 countup = getCountup(-1, 9.5, 1.5);
 if (arraysMatch(countup, [-1, 0.5, 2, 3.5, 5, 6.5, 8, 9.5])) console.log('test 9 passed');
 else console.log('test 9 FAILED');
+
+
+countdown = getCountdown(9.5, -1, 1.5);
+if (arraysMatch(countdown, [9.5, 8, 6.5, 5, 3.5, 2, 0.5, -1])) console.log('test 10 passed');
+else console.log('test 10 FAILED');
+
+
+let errTriggered = false;
+try {
+	getCountdown(-1, 3);
+}
+catch (e) {
+	errTriggered = true;
+}
+if (errTriggered) console.log('test 11 passed');
+else console.log('test 11 FAILED');
+
+
+
+errTriggered = false;
+try {
+	getCountup(3, -1);
+}
+catch (e) {
+	errTriggered = true;
+}
+if (errTriggered) console.log('test 12 passed');
+else console.log('test 12 FAILED');
+

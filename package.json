@@ -15,10 +15,20 @@
     "array",
     "count"
   ],
-  "author": "Steve Thompson",
-  "license": "FREE",
-  "devDependencies": {
-    "@writetome51/arrays-match": "^2.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-countup-countdown.git"
   },
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/writetome51/get-countup-countdown/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-countup-countdown#readme",
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "devDependencies": {
+    "@writetome51/arrays-match": "^2.0.1"
+  },
+  "dependencies": {
+    "@writetome51/get-arr-filled": "^0.0.2"
+  }
 }
